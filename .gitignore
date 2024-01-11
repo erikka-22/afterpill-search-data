@@ -1,2 +1,4 @@
-pharmaciesLists/
-urlLists/
+/pharmaciesLists/**
+!/pharmaciesLists/**/.gitkeep
+/urlLists/**
+!/urlLists/**/.gitkeep
