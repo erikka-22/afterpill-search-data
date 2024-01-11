@@ -1,0 +1,190 @@
+[
+  {
+    "code": "01",
+    "name": "hokkaido"
+  },
+  {
+    "code": "02",
+    "name": "aomori"
+  },
+  {
+    "code": "03",
+    "name": "iwate"
+  },
+  {
+    "code": "04",
+    "name": "miyagi"
+  },
+  {
+    "code": "05",
+    "name": "akita"
+  },
+  {
+    "code": "06",
+    "name": "yamagata"
+  },
+  {
+    "code": "07",
+    "name": "fukushima"
+  },
+  {
+    "code": "08",
+    "name": "ibaraki"
+  },
+  {
+    "code": "09",
+    "name": "tochigi"
+  },
+  {
+    "code": "10",
+    "name": "gunma"
+  },
+  {
+    "code": "11",
+    "name": "saitama"
+  },
+  {
+    "code": "12",
+    "name": "chiba"
+  },
+  {
+    "code": "13",
+    "name": "tokyo"
+  },
+  {
+    "code": "14",
+    "name": "kanagawa"
+  },
+  {
+    "code": "15",
+    "name": "nigata"
+  },
+  {
+    "code": "16",
+    "name": "toyama"
+  },
+  {
+    "code": "17",
+    "name": "ishikawa"
+  },
+  {
+    "code": "18",
+    "name": "fukui"
+  },
+  {
+    "code": "19",
+    "name": "yamanashi"
+  },
+  {
+    "code": "20",
+    "name": "nagano"
+  },
+  {
+    "code": "21",
+    "name": "gifu"
+  },
+  {
+    "code": "22",
+    "name": "shizuoka"
+  },
+  {
+    "code": "23",
+    "name": "aichi"
+  },
+  {
+    "code": "24",
+    "name": "mie"
+  },
+  {
+    "code": "25",
+    "name": "shiga"
+  },
+  {
+    "code": "26",
+    "name": "kyoto"
+  },
+  {
+    "code": "27",
+    "name": "osaka"
+  },
+  {
+    "code": "28",
+    "name": "hyogo"
+  },
+  {
+    "code": "29",
+    "name": "nara"
+  },
+  {
+    "code": "30",
+    "name": "wakayama"
+  },
+  {
+    "code": "31",
+    "name": "tottori"
+  },
+  {
+    "code": "32",
+    "name": "shimane"
+  },
+  {
+    "code": "33",
+    "name": "okayama"
+  },
+  {
+    "code": "34",
+    "name": "hiroshima"
+  },
+  {
+    "code": "35",
+    "name": "yamaguchi"
+  },
+  {
+    "code": "36",
+    "name": "tokushima"
+  },
+  {
+    "code": "37",
+    "name": "kagawa"
+  },
+  {
+    "code": "38",
+    "name": "ehime"
+  },
+  {
+    "code": "39",
+    "name": "kochi"
+  },
+  {
+    "code": "40",
+    "name": "fukuoka"
+  },
+  {
+    "code": "41",
+    "name": "saga"
+  },
+  {
+    "code": "42",
+    "name": "nagasaki"
+  },
+  {
+    "code": "43",
+    "name": "kumamoto"
+  },
+  {
+    "code": "44",
+    "name": "oita"
+  },
+  {
+    "code": "45",
+    "name": "miyazaki"
+  },
+  {
+    "code": "46",
+    "name": "kagoshima"
+  },
+  {
+    "code": "47",
+    "name": "okinawa"
+  }
+]

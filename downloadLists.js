@@ -17,7 +17,7 @@ async function main() {
   })
   
   const timestamp = Date.now().toString()
-  const filePath = __dirname + '/' + timestamp + '.txt'
+  const filePath = __dirname + '/urlLists/' + timestamp + '.txt'
 
   try {
     fs.writeFileSync(filePath, excelUrlListArr.join(','))
