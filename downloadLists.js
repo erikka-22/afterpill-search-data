@@ -1,8 +1,9 @@
+import { JSDOM } from 'jsdom'
+import fs from 'fs'
+
+const __dirname = import.meta.dirname
 
 async function main() {
-  const jsdom = require('jsdom')
-  const { JSDOM } = jsdom
-  const fs = require('fs')
   const excelUrlListArr = []
 
   const url = "https://www.mhlw.go.jp/stf/kinnkyuuhininnyaku.html"

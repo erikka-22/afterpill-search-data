@@ -1,5 +1,9 @@
+import fs from 'fs'
+import https from 'https'
+
+const __dirname = import.meta.dirname
+
 const download = (url, filename, fs) => {
-  const https = require('https')
   return new Promise((resolve, reject) => 
     https
       .request(url, (res) => {
@@ -12,7 +16,7 @@ const download = (url, filename, fs) => {
   )
 }
 
-const readUrlListFile = (csvFilename, fs) => {
+const readUrlListFile = (csvFilename) => {
   let urlList = []
   try {
     const urlListStr = fs.readFileSync(__dirname + '/urlLists/' + csvFilename, 'utf8')
@@ -34,9 +38,8 @@ const getFilenameFromUrl = (excelUrl) => {
 }
 
 const main = () => {
-  const fs = require('fs')
   const prefectureCodes = JSON.parse(fs.readFileSync('./prefectureCodes.json'))
-  const urlList = readUrlListFile('1704972826725.txt', fs)
+  const urlList = readUrlListFile('1704972826725.txt')
   
   // console.log(urlList)
 
