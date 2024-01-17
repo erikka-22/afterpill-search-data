@@ -3,7 +3,7 @@ import fs from 'fs'
 
 const __dirname = import.meta.dirname
 
-async function main() {
+const main = async () => {
   const excelUrlListArr = []
 
   const url = "https://www.mhlw.go.jp/stf/kinnkyuuhininnyaku.html"
