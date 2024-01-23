@@ -70,6 +70,11 @@
     "name_jp": "神奈川"
   },
   {
+    "code": "19",
+    "name": "yamanashi",
+    "name_jp": "山梨"
+  },
+  {
     "code": "15",
     "name": "nigata",
     "name_jp": "新潟"
@@ -88,11 +93,6 @@
     "code": "18",
     "name": "fukui",
     "name_jp": "福井"
-  },
-  {
-    "code": "19",
-    "name": "yamanashi",
-    "name_jp": "山梨"
   },
   {
     "code": "20",
