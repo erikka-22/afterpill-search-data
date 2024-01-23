@@ -3,17 +3,15 @@ import https from 'https'
 
 const __dirname = import.meta.dirname
 
-const download = (url, filename, fs) => {
-  return new Promise((resolve, reject) => 
-    https
-      .request(url, (res) => {
-        res
-          .pipe(fs.createWriteStream(__dirname + '/pharmaciesLists/' + filename))
-          .on("close", resolve)
-          .on("error", reject)
-      })
-      .end()
-  )
+const download = async (url, filename, fs) => {
+  try {
+    const response = await fetch(url)
+    const arrayBuffer = await response.arrayBuffer()
+    const buffer = Buffer.from(arrayBuffer)
+    fs.writeFileSync(__dirname + '/pharmaciesLists/' + filename, buffer)
+  } catch (error) {
+    console.error(`Download error: ${error.message}`);
+  }
 }
 
 const readUrlListFile = (csvFilename) => {
@@ -39,7 +37,7 @@ const getFilenameFromUrl = (excelUrl) => {
 
 const main = () => {
   const prefectureCodes = JSON.parse(fs.readFileSync('./prefectureCodes.json'))
-  const urlList = readUrlListFile('1704972826725.txt')
+  const urlList = readUrlListFile('1706005442949.txt')
   
   // console.log(urlList)
 
