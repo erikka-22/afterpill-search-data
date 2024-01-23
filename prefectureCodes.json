@@ -2,190 +2,236 @@
   {
     "code": "01",
     "name": "hokkaido",
-    "name_jp": "hokkaido"
+    "name_jp": "北海道"
   },
   {
     "code": "02",
-    "name": "aomori"
+    "name": "aomori",
+    "name_jp": "青森"
   },
   {
     "code": "03",
-    "name": "iwate"
+    "name": "iwate",
+    "name_jp": "岩手"
   },
   {
     "code": "04",
-    "name": "miyagi"
+    "name": "miyagi",
+    "name_jp": "宮城"
   },
   {
     "code": "05",
-    "name": "akita"
+    "name": "akita",
+    "name_jp": "秋田"
   },
   {
     "code": "06",
-    "name": "yamagata"
+    "name": "yamagata",
+    "name_jp": "山形"
   },
   {
     "code": "07",
-    "name": "fukushima"
+    "name": "fukushima",
+    "name_jp": "福島"
   },
   {
     "code": "08",
-    "name": "ibaraki"
+    "name": "ibaraki",
+    "name_jp": "茨城"
   },
   {
     "code": "09",
-    "name": "tochigi"
+    "name": "tochigi",
+    "name_jp": "栃木"
   },
   {
     "code": "10",
-    "name": "gunma"
+    "name": "gunma",
+    "name_jp": "群馬"
   },
   {
     "code": "11",
-    "name": "saitama"
+    "name": "saitama",
+    "name_jp": "埼玉"
   },
   {
     "code": "12",
-    "name": "chiba"
+    "name": "chiba",
+    "name_jp": "千葉"
   },
   {
     "code": "13",
-    "name": "tokyo"
+    "name": "tokyo",
+    "name_jp": "東京"
   },
   {
     "code": "14",
-    "name": "kanagawa"
-  },
-  {
-    "code": "15",
-    "name": "nigata"
-  },
-  {
-    "code": "16",
-    "name": "toyama"
-  },
-  {
-    "code": "17",
-    "name": "ishikawa"
-  },
-  {
-    "code": "18",
-    "name": "fukui"
+    "name": "kanagawa",
+    "name_jp": "神奈川"
   },
   {
     "code": "19",
-    "name": "yamanashi"
+    "name": "yamanashi",
+    "name_jp": "山梨"
+  },
+  {
+    "code": "15",
+    "name": "nigata",
+    "name_jp": "新潟"
+  },
+  {
+    "code": "16",
+    "name": "toyama",
+    "name_jp": "富山"
+  },
+  {
+    "code": "17",
+    "name": "ishikawa",
+    "name_jp": "石川"
+  },
+  {
+    "code": "18",
+    "name": "fukui",
+    "name_jp": "福井"
   },
   {
     "code": "20",
-    "name": "nagano"
+    "name": "nagano",
+    "name_jp": "長野"
   },
   {
     "code": "21",
-    "name": "gifu"
+    "name": "gifu",
+    "name_jp": "岐阜"
   },
   {
     "code": "22",
-    "name": "shizuoka"
+    "name": "shizuoka",
+    "name_jp": "静岡"
   },
   {
     "code": "23",
-    "name": "aichi"
+    "name": "aichi",
+    "name_jp": "愛知"
   },
   {
     "code": "24",
-    "name": "mie"
+    "name": "mie",
+    "name_jp": "三重"
   },
   {
     "code": "25",
-    "name": "shiga"
+    "name": "shiga",
+    "name_jp": "滋賀"
   },
   {
     "code": "26",
-    "name": "kyoto"
+    "name": "kyoto",
+    "name_jp": "京都"
   },
   {
     "code": "27",
-    "name": "osaka"
+    "name": "osaka",
+    "name_jp": "大阪"
   },
   {
     "code": "28",
-    "name": "hyogo"
+    "name": "hyogo",
+    "name_jp": "兵庫"
   },
   {
     "code": "29",
-    "name": "nara"
+    "name": "nara",
+    "name_jp": "奈良"
   },
   {
     "code": "30",
-    "name": "wakayama"
+    "name": "wakayama",
+    "name_jp": "和歌山"
   },
   {
     "code": "31",
-    "name": "tottori"
+    "name": "tottori",
+    "name_jp": "鳥取"
   },
   {
     "code": "32",
-    "name": "shimane"
+    "name": "shimane",
+    "name_jp": "島根"
   },
   {
     "code": "33",
-    "name": "okayama"
+    "name": "okayama",
+    "name_jp": "岡山"
   },
   {
     "code": "34",
-    "name": "hiroshima"
+    "name": "hiroshima",
+    "name_jp": "広島"
   },
   {
     "code": "35",
-    "name": "yamaguchi"
+    "name": "yamaguchi",
+    "name_jp": "山口"
   },
   {
     "code": "36",
-    "name": "tokushima"
+    "name": "tokushima",
+    "name_jp": "徳島"
   },
   {
     "code": "37",
-    "name": "kagawa"
+    "name": "kagawa",
+    "name_jp": "香川"
   },
   {
     "code": "38",
-    "name": "ehime"
+    "name": "ehime",
+    "name_jp": "愛媛"
   },
   {
     "code": "39",
-    "name": "kochi"
+    "name": "kochi",
+    "name_jp": "高知"
   },
   {
     "code": "40",
-    "name": "fukuoka"
+    "name": "fukuoka",
+    "name_jp": "福岡"
   },
   {
     "code": "41",
-    "name": "saga"
+    "name": "saga",
+    "name_jp": "佐賀"
   },
   {
     "code": "42",
-    "name": "nagasaki"
+    "name": "nagasaki",
+    "name_jp": "長崎"
   },
   {
     "code": "43",
-    "name": "kumamoto"
+    "name": "kumamoto",
+    "name_jp": "熊本"
   },
   {
     "code": "44",
-    "name": "oita"
+    "name": "oita",
+    "name_jp": "大分"
   },
   {
     "code": "45",
-    "name": "miyazaki"
+    "name": "miyazaki",
+    "name_jp": "宮崎"
   },
   {
     "code": "46",
-    "name": "kagoshima"
+    "name": "kagoshima",
+    "name_jp": "鹿児島"
   },
   {
     "code": "47",
-    "name": "okinawa"
+    "name": "okinawa",
+    "name_jp": "沖縄"
   }
 ]
