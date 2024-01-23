@@ -44,7 +44,7 @@ const main = () => {
   urlList.forEach((url, index) => {
     // console.log(index)
     const originalFilename = getFilenameFromUrl(url)
-    const exportFilename = originalFilename + '-' + prefectureCodes[index].code + '-' + prefectureCodes[index].name + '.xlsx'
+    const exportFilename = prefectureCodes[index].code + '-' + prefectureCodes[index].name + '-' + originalFilename + '.xlsx'
     download(url, exportFilename, fs)
   })
 }
