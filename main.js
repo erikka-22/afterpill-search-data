@@ -1,7 +1,10 @@
 import { JSDOM } from 'jsdom'
 import fs from 'fs'
+import { fileURLToPath } from "node:url";
+import path from "node:path";
 
-const __dirname = import.meta.dirname
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const download = async (url, filename) => {
   try {
