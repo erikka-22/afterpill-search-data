@@ -35,11 +35,11 @@ const main = async () => {
     prefectures[index].url = dom.href
   })
   
-  prefectures.forEach((prefecture) => {
+  for await (const prefecture of prefectures) {
     const originalFilename = getFilenameFromUrl(prefecture.url)
     const exportFilename = prefecture.code + '-' + prefecture.name + '-' + originalFilename + '.xlsx'
     download(prefecture.url, exportFilename)
-  })
+  }
 }
 
 main()
